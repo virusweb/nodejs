@@ -1,4 +1,4 @@
-// require is use for load module
+// 'require' is use for load module
 var http = require('http');
 
 // load custom module
