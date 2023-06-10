@@ -1,0 +1,17 @@
+=> Task: 
+- Make post api to write data in file : use post man to get data into req.body
+- Make put api to update data file values : use post man to get data into req.body
+- Make get details api to get perticuler data fetch ie: http://localhost:8080/id=1
+- Make list API to fetch all data you have added into file
+
+This operation try to use in separate file and try to call that file into main file server.js this is your main file
+Use try catch in all function/API and handle error if data not find or file name does not exists
+
+=> Files (try to use this modularity)
+- server.js
+- Package.json
+- Package-lock.json
+- folder name => crud_operations
+   - folder files => get_details operation.js , post_operation.js , put_operation.js , get_list_operation.js 
+
+For now implemement this basic flow
